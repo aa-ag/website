@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Aaron Aguerrevere</title>
+</head>
+
+<body>
+    <h1>Aaron A.</h1>
+    <p>I'm a reformed lawyer turned developer, in love with the internet.</p>
+
+    <!-- Include the library. -->
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+    <!-- Prepare a container for your calendar. -->
+    <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+    </div>
+
+    <script>
+        GitHubCalendar(".calendar", "your-username");
+
+        // or enable responsive functionality:
+        GitHubCalendar(".calendar", "your-username", { responsive: true });
+
+        // Use a proxy
+        GitHubCalendar(".calendar", "your-username", {
+            proxy(username) {
+                return fetch(`https://your-proxy.com/github?user=${username}`)
+            }
+        }).then(r => r.text())
+    </script>
+
+    <h2>What am I up to now</h2>
+    <p>Currently, I happily work as a Support Engineer at <a target="_blank"
+            href="https://www.legacy.com/">Legacy.com</a></p>
+    <p>I'm also completing Udacity's Data Structures & Algorithms Nanodegree</p>
+    <ul>
+        <li><a target="_blank" href="https://www.linkedin.com/in/aa-ag/">LinkedIn</a></li>
+        <li><a target="_blank" href="https://github.com/aa-ag">Github</a></li>
+        <li><a target="_blank" href="https://www.codewars.com/users/aa-ag">Codewars</a></li>
+        <li><a target="_blank" href="https://stackoverflow.com/users/12908779/aaron-a">Stackoverflow</a></li>
+    </ul>
+
+    <ul>
+        <li>Story</li>
+        <li>Portfolio</li>
+        <li>Interests</li>
+        <li>Contact</li>
+    </ul>
+</body>
+
+</html>

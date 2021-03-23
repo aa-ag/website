@@ -5,6 +5,9 @@ settings.py
 config
 config.py
 
+# node_modules / blogify
+node_modules
+
 # .DS Store
 .DS Store
 

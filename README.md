@@ -14,3 +14,7 @@ Experimenting with scraping contributions from github.
 
 `BeautifulSoup`
 `urllib.request`
+
+Decided to give this a try: 
+
+`https://github.com/Bloggify/github-calendar#installation`
