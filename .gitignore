@@ -8,6 +8,12 @@ config.py
 # node_modules / blogify
 node_modules
 
+# contributions.py
+contributions.py
+
+# package-lock.json
+package-lock.json
+
 # .DS Store
 .DS Store
 

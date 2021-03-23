@@ -28,13 +28,10 @@
     </div>
 
     <script>
-        GitHubCalendar(".calendar", "your-username");
-
-        // or enable responsive functionality:
-        GitHubCalendar(".calendar", "your-username", { responsive: true });
+        GitHubCalendar(".calendar", "aa-ag", { responsive: true });
 
         // Use a proxy
-        GitHubCalendar(".calendar", "your-username", {
+        GitHubCalendar(".calendar", "aa-ag", {
             proxy(username) {
                 return fetch(`https://your-proxy.com/github?user=${username}`)
             }
