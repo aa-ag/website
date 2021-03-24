@@ -12,7 +12,13 @@
 
 <body>
 
-    <h1>Aaron A.</h1>
+    <div class="nav">
+        <a class="name">Aaron A.</a>
+        <a target="_blank" href="https://www.linkedin.com/in/aa-ag/">LinkedIn</a>
+        <a target="_blank" href="https://github.com/aa-ag">Github</a>
+        <a target="_blank" href="https://www.codewars.com/users/aa-ag">Codewars</a>
+        <a target="_blank" href="https://stackoverflow.com/users/12908779/aaron-a">Stackoverflow</a>
+    </div>
 
     <img src="images/Headshot.png" class="headshot" alt="Aaron's headshot">
 
@@ -31,18 +37,21 @@
         Loading the data just for you.
     </div>
 
-    <script src="/js/main.js"></script>
+    <script>
+        GitHubCalendar(".calendar", "aa-ag", { responsive: true });
+
+        // Use a proxy
+        GitHubCalendar(".calendar", "aa-ag", {
+            proxy(username) {
+                return fetch(`https://your-proxy.com/github?user=${username}`)
+            }
+        }).then(r => r.text())
+    </script>
 
     <h2>What am I up to now?</h2>
     <p>Currently, I happily work as a Support Engineer at <a target="_blank"
             href="https://www.legacy.com/">Legacy.com</a></p>
     <p>I'm also completing Udacity's Data Structures & Algorithms Nanodegree</p>
-    <ul>
-        <li><a target="_blank" href="https://www.linkedin.com/in/aa-ag/">LinkedIn</a></li>
-        <li><a target="_blank" href="https://github.com/aa-ag">Github</a></li>
-        <li><a target="_blank" href="https://www.codewars.com/users/aa-ag">Codewars</a></li>
-        <li><a target="_blank" href="https://stackoverflow.com/users/12908779/aaron-a">Stackoverflow</a></li>
-    </ul>
 
     <ul>
         <li>Story</li>

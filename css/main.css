@@ -1,19 +1,36 @@
+/* global  */
 * {
-    background-color: rgb(38, 39, 41);
+    background-color: #333;
     color: rgb(239, 239, 239);
 }
 
+/* navigation bar */
+.nav {
+    overflow: hidden;
+}
+  
+.nav a {
+    background-color: rgb(38, 39, 41);
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a.name {
+    background-color: #4CAF50;
+}
+
+/* headshot */
 .headshot {
     height: 150px;
     width: 125px;
     border-radius: 8px;
-}
-
-header, h1 {
-    height: 40px;
-    background-color: #393939;
-}
-
-h1 {
-    color: rgb(255, 255, 255);
 }
