@@ -6,6 +6,11 @@
     margin-right: auto; */
 }
 
+.headshot {
+    height: 150px;
+    width: 125px;
+}
+
 header, h1 {
     background-color: #393939;
 }
