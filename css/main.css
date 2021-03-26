@@ -64,7 +64,15 @@
     border-radius: 8px;
 }
 
- /* info sections */
+/* intro section */
+.intro {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+
+ /* info section */
 .collapsible {
     background-color: rgb(37, 37, 37);
     cursor: pointer;
