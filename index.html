@@ -35,14 +35,40 @@
     <h2>What am I up to now?</h2>
     <p>Currently, I happily work as a Support Engineer at <a target="_blank"
             href="https://www.legacy.com/">Legacy.com</a></p>
-    <p>I'm also completing Udacity's Data Structures & Algorithms Nanodegree</p>
+    <p>I'm also completing Udacity's <a target="_blank"
+            href="https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256"></a>Data Structures &
+        Algorithms Nanodegree</p>
 
-    <ul>
-        <li>Story</li>
-        <li>Portfolio</li>
-        <li>Interests</li>
-        <li>Contact</li>
-    </ul>
+    <button type="button" class="collapsible">Story</button>
+    <div class="content">
+        <p>Lorem ipsum</p>
+    </div>
+    <button type="button" class="collapsible">Interests</button>
+    <div class="content">
+        <p>Lorem ipsum</p>
+    </div>
+    <button type="button" class="collapsible">Contact</button>
+    <div class="content">
+        <p>Lorem ipsum</p>
+    </div>
+
+    <script>
+        let collapsible = document.getElementsByClassName("collapsible");
+        let i;
+
+        for (i = 0; i < collapsible.length; i++) {
+            collapsible[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+
 </body>
 
 </html>
