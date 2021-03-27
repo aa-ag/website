@@ -1,8 +1,10 @@
 /* global  */
-* {
+body { 
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
     background-color: #333;
     color: rgb(239, 239, 239);
-    margin: auto;
 }
 
 
@@ -32,11 +34,11 @@
 }
 
 /* headshot */
-.headshot {
+/* .headshot {
     height: 150px;
     width: 125px;
     border-radius: 8px;
-}
+} */
 
 
 /* intro section */
