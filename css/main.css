@@ -111,11 +111,22 @@ a:visited {
 }
   
 .content {
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 1.5rem;
     display: none;
     overflow: hidden;
     font-size: 25px;
     color: rgb(220, 219, 219);
+}
+
+/* keywords */
+#keywords span {
+    padding: 4px;
+    margin: 2px;
+    line-height: 2.8rem;
+    border-radius: 8px;
+    font-size: 80%;
+    background-color: #3b82f6;
+    color: rgb(35, 35, 35);
 }
 
 /* footer  */
