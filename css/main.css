@@ -17,6 +17,24 @@ body {
     height: 100%;
 }
 
+a:link {
+    font-style: italic;
+    text-decoration: none;
+    color: #333;
+}
+
+a:active {
+    font-style: italic;
+    text-decoration: none;
+    color: #333;
+}
+
+a:visited {
+    font-style: italic;
+    text-decoration: none;
+    color: #333;
+}
+
 
 /* navigation bar */
 .nav {
@@ -57,31 +75,7 @@ body {
     border-radius: 8px;
 } */
 
-
-a:link {
-    font-style: italic;
-    text-decoration: none;
-    color: rgb(239, 239, 239);
-}
-
-a:active {
-    font-style: italic;
-    text-decoration: none;
-    color: rgb(239, 239, 239);
-}
-
-a:visited {
-    font-style: italic;
-    text-decoration: none;
-    color: rgb(239, 239, 239);
-}
-
 /* info section */
-.info {
-    width: 90%;
-    margin: auto;
-    font-size: 20px;
-}
 
 #first-subsection {
     border-radius: 7px 7px 0px 0px;
@@ -91,11 +85,10 @@ a:visited {
     border-radius: 0px 0px 7px 7px;
 }
 
-
-#intro, #story {
+.info {
     width: 90%;
     margin: auto;
-    font-size: 85%;
+    font-size: 20px;
 }
 
 .collapsible {
@@ -124,7 +117,35 @@ a:visited {
     color: rgb(220, 219, 219);
 }
 
-/* skills */
+/* content spans */
+#intro span {
+    padding: .4em .5em;
+    margin: 2px 2px 2px 0;
+    line-height: 2.2;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 7px;
+    background-color: #de935f;
+    color: rgb(35, 35, 35);
+}
+
+#story span {
+    padding: .4em .5em;
+    margin: 2px 2px 2px 0;
+    line-height: 2.2;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 7px;
+    background-color: #b294bb;
+    color: rgb(35, 35, 35);
+}
+
 #skills span {
     padding: .4em .5em;
     margin: 2px 2px 2px 0;
