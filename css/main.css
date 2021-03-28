@@ -118,6 +118,10 @@ a:visited {
     color: rgb(220, 219, 219);
 }
 
+#story {
+    font-size: 85%;
+}
+
 /* skills */
 #skills span {
     font-size: 85%;
