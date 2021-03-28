@@ -21,7 +21,7 @@ body {
 /* navigation bar */
 .nav {
     overflow: hidden;
-    height: 3rem;
+    height: 4rem;
     margin-bottom: 1.5rem;
     border-top: 5px solid rgb(128,0,0);
     background-color: rgb(37, 37, 37);
@@ -30,21 +30,28 @@ body {
     -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.87);
 }
 
-.nav > a {
+#name {
+    float: left;
+    margin-top: 0.9rem;
+    margin-left: 0.6rem;
+
+}   
+
+#buttons {
+    float: right;
+    margin-top: 0.9rem;
+    margin-right: 0.9rem;
+}
+
+/* .nav > a {
     float: right;
     margin-top: 5px;
     margin-bottom: 2px;
     margin-right: 10px;
     padding: 2px;
-}
+} */
 
-#name {
-    float: left;
-    margin-left: 10px;
-    padding-top: 5px;
-}
-
-/* headshot */
+/* headshot
 .headshot {
     float: left;
     margin-top: 2rem;
@@ -52,14 +59,13 @@ body {
     height: 150px;
     width: 125px;
     border-radius: 8px;
-}
+} */
 
 
 /* intro section */
 .intro {
-    float: right;
-    margin-bottom: 2.5rem;
-    margin-right: 12%;
+    width: 60%;
+    margin: auto;
 }
 
 .intro > * {
