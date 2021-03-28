@@ -43,6 +43,10 @@ body {
     margin-right: 0.9rem;
 }
 
+#buttons img {
+    border-radius: 7px;
+}
+
 /* headshot
 .headshot {
     float: left;
@@ -53,6 +57,24 @@ body {
     border-radius: 8px;
 } */
 
+
+a:link {
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+}
+
+a:active {
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+}
+
+a:visited {
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+}
 
 /* info section */
 .info {
@@ -74,24 +96,6 @@ body {
     width: 90%;
     margin: auto;
     font-size: 85%;
-}
-
-a:link {
-    font-style: italic;
-    text-decoration: none;
-    color: rgb(239, 239, 239);
-}
-
-a:active {
-    font-style: italic;
-    text-decoration: none;
-    color: rgb(239, 239, 239);
-}
-
-a:visited {
-    font-style: italic;
-    text-decoration: none;
-    color: rgb(239, 239, 239);
 }
 
 .collapsible {
