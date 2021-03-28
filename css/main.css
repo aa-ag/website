@@ -54,7 +54,7 @@ body {
 } */
 
 
-/* intro section */
+/* info section */
 .info {
     width: 90%;
     margin: auto;
@@ -65,11 +65,6 @@ body {
     width: 70%;
     margin: auto;
     font-size: 85%;
-}
-
-#intro > * {
-    padding-top: 0.2rem;
-    font-size: 90%;
 }
 
 a:link {
@@ -90,8 +85,6 @@ a:visited {
     color: rgb(239, 239, 239);
 }
 
-
-/* info section */
 .collapsible {
     cursor: pointer;
     padding: 10px;
@@ -109,7 +102,9 @@ a:visited {
 }
   
 .content {
-    margin: 10px 0px 10px 1.5rem;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1rem;
     display: none;
     overflow: hidden;
     font-size: 25px;
@@ -118,7 +113,6 @@ a:visited {
 
 /* skills */
 #skills span {
-    font-size: 85%;
     padding: .4em .5em;
     margin: 2px 2px 2px 0;
     font-size: 11px;
@@ -134,7 +128,6 @@ a:visited {
 }
 
 #about span {
-    font-size: 85%;
     padding: .4em .5em;
     margin: 2px 2px 2px 0;
     font-size: 11px;
@@ -153,7 +146,11 @@ a:visited {
 .footer {
     text-align: center;
     position: sticky;
+    width: 90%;
+    margin: auto;
     margin-top: 2rem;
     font-size: 80%;
+    border-top: 1px solid rgba(141, 140, 140, 0.08);
+    padding-top: 2rem;
     color: rgb(101, 101, 101);
 }
