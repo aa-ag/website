@@ -118,9 +118,25 @@ a:visited {
     color: rgb(220, 219, 219);
 }
 
-/* keywords */
-#keywords span {
-    font-size: 80%;
+/* skills */
+#skills span {
+    font-size: 85%;
+    padding: .4em .5em;
+    margin: 2px 2px 2px 0;
+    font-size: 11px;
+    line-height: 1;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: rgb(181, 189, 104);
+    color: rgb(35, 35, 35);
+}
+
+#about span {
+    font-size: 85%;
     padding: .4em .5em;
     margin: 2px 2px 2px 0;
     font-size: 11px;
