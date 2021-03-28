@@ -60,6 +60,14 @@ body {
     margin: auto;
 }
 
+#first-subsection {
+    border-radius: 7px 7px 0px 0px;
+}
+
+#last-subsection {
+    border-radius: 0px 0px 7px 7px;
+}
+
 
 #intro, #story {
     width: 70%;
