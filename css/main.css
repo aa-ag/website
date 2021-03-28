@@ -15,6 +15,7 @@ body {
     font-size: 22px;
     background-color: #333;
     color: rgb(239, 239, 239);
+    height: 100%;
 }
 
 
@@ -64,12 +65,12 @@ body {
 
 /* intro section */
 .intro {
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
 .intro > * {
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 
 a:link {
@@ -114,4 +115,12 @@ a:visited {
     overflow: hidden;
     font-size: 25px;
     color: rgb(220, 219, 219);
+}
+
+/* footer  */
+.footer {
+    text-align: center;
+    position: sticky;
+    margin-top: 10rem;
+    color: rgb(101, 101, 101);
 }
