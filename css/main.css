@@ -35,7 +35,6 @@ body {
     float: left;
     margin-top: 0.9rem;
     margin-left: 0.6rem;
-
 }   
 
 #buttons {
@@ -43,14 +42,6 @@ body {
     margin-top: 0.9rem;
     margin-right: 0.9rem;
 }
-
-/* .nav > a {
-    float: right;
-    margin-top: 5px;
-    margin-bottom: 2px;
-    margin-right: 10px;
-    padding: 2px;
-} */
 
 /* headshot
 .headshot {
@@ -64,12 +55,19 @@ body {
 
 
 /* intro section */
-.intro {
-    width: 70%;
+.info {
+    width: 90%;
     margin: auto;
 }
 
-.intro > * {
+
+#intro, #story {
+    width: 70%;
+    margin: auto;
+    font-size: 85%;
+}
+
+#intro > * {
     padding-top: 0.2rem;
     font-size: 90%;
 }
@@ -116,10 +114,6 @@ a:visited {
     overflow: hidden;
     font-size: 25px;
     color: rgb(220, 219, 219);
-}
-
-#story {
-    font-size: 85%;
 }
 
 /* skills */
