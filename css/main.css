@@ -123,5 +123,6 @@ a:visited {
     text-align: center;
     position: sticky;
     margin-top: 2rem;
+    font-size: 80%;
     color: rgb(101, 101, 101);
 }
