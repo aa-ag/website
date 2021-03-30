@@ -41,7 +41,7 @@ a:visited {
     overflow: hidden;
     height: 4rem;
     margin-bottom: 1.5rem;
-    border-top: 5px solid #000001;
+    border-top: 5px solid #DBDFFE;
     background-color: #011944;
     box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.87);
     -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.87);
@@ -104,7 +104,7 @@ a:visited {
 }
   
 .active, .collapsible:hover {
-    background-color: #DBDFFE;
+    background-color: #40456f;
 }
   
 .content {
