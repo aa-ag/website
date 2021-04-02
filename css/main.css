@@ -82,8 +82,8 @@ a:visited {
 
 #buttons {
     float: right;
-    margin-top: 0.9rem;
-    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
 }
 
 #buttons img {
