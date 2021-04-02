@@ -118,7 +118,7 @@ a:visited {
 }
 
 /* content spans */
-#story span, #skills span, #about span {
+#intro span, #skills span, #about span {
     padding: .4em .5em;
     margin: 2px 2px 2px 0;
     line-height: 2.2;
