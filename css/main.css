@@ -11,7 +11,7 @@
 
 body { 
     margin: 0;
-    padding: 0;
+    padding: -5;
     background-color: #06358A;
     color: rgb(239, 239, 239);
     height: 100%;
@@ -19,20 +19,19 @@ body {
 
 a:link {
     font-style: italic;
-    text-decoration: none;
-    color: #06358A;
+    color: rgb(35, 35, 35);
 }
 
 a:active {
     font-style: italic;
     text-decoration: none;
-    color: #06358A;
+    color: rgb(35, 35, 35);
 }
 
 a:visited {
     font-style: italic;
     text-decoration: none;
-    color: #06358A;
+    color: rgb(35, 35, 35);
 }
 
 
