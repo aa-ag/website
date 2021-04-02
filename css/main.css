@@ -33,7 +33,7 @@ body {
     width: 100%;
     background: linear-gradient(90deg, #eb704b, #e63277, #1da2d3, #22e2b5);
     background-size: 400% 400%;
-    animation: gradient 90s ease infinite;
+    animation: gradient 60s ease infinite;
     /* animation-iteration-count: 1; */
 }
 
@@ -83,7 +83,7 @@ a:visited {
 #buttons {
     float: right;
     margin-top: 0.9rem;
-    margin-right: 0.9rem;
+    margin-right: 1rem;
 }
 
 #buttons img {
