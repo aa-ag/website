@@ -34,7 +34,7 @@ body {
     width: 100%;
     background: linear-gradient(90deg, #eb704b, #e63277, #1da2d3, #22e2b5);
     background-size: 400% 400%;
-    animation: gradient 35s ease infinite;
+    animation: gradient 20s ease infinite;
     /* animation-iteration-count: 1; */
 }
 
@@ -103,7 +103,7 @@ a:visited {
     text-align: left;
     outline: none;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     background-color: white;
     color: rgb(53, 53, 53);
@@ -136,7 +136,7 @@ a:visited {
     color: rgb(53, 53, 53);
     border: 1px solid rgb(53, 53, 53);
     border-radius: 7px;
-    font-size: 19px;
+    font-size: 16px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -155,13 +155,13 @@ a:visited {
 
 #buttons a {
     padding-right: 10px;
-    font-size: 75%;
 }
 
 /* copyright */
 .footer {
     text-align: center;
     position: sticky;
+    font-size: 15px;
     width: 77%;
     margin: auto;
     margin-top: 2rem;
