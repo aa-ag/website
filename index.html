@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-
     <title>aa-ag</title>
 </head>
 
@@ -35,12 +34,12 @@
         </div>
     </div>
 
-
     <!-- headshot -->
     <!-- <img src="images/Headshot.png" class="headshot" alt="Aaron's headshot"> -->
 
     <!-- general info section -->
     <div class="info">
+        <!-- intro -->
         <button type="button" class="collapsible" id="first-subsection">intro</button>
         <div class="content" id="intro">
             <span> I'm a reformed lawyer </span>
@@ -59,28 +58,28 @@
                     Nanodegree</a>.
             </span>
         </div>
-
+        <!-- about -->
         <button type="button" class="collapsible">about</button>
         <div class="content" id="about">
             <span> First-generation American </span>
-            <span> dependable </span>
-            <span> books </span>
-            <span> technology </span>
-            <span> comedy </span>
-            <span> freedom of speech </span>
-            <span> tech for good </span>
-            <span> memes </span>
-            <span> inclusion & diversity </span>
-            <span> finance </span>
+            <span> Dependable </span>
+            <span> Books </span>
+            <span> Technology </span>
+            <span> Comedy </span>
+            <span> Freedom of speech </span>
+            <span> Tech for good </span>
+            <span> Memes </span>
+            <span> Inclusion & Diversity </span>
+            <span> Finance </span>
             <span> Formula 1 </span>
-            <span> software </span>
-            <span> api's </span>
-            <span> classical music </span>
-            <span> ai </span>
-            <span> food </span>
-            <span> learning new things </span>
+            <span> Software </span>
+            <span> API's </span>
+            <span> Classical music </span>
+            <span> AI </span>
+            <span> Food </span>
+            <span> Learning new things </span>
         </div>
-
+        <!-- skills -->
         <button type="button" class="collapsible" id="last-subsection">skills</button>
         <div class="content" id="skills">
             <!-- tags/skills/keywords -->
@@ -106,22 +105,6 @@
             <span> Linux </span>
         </div>
 
-        <script>
-            let collapsible = document.getElementsByClassName("collapsible");
-            let i;
-
-            for (i = 0; i < collapsible.length; i++) {
-                collapsible[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var content = this.nextElementSibling;
-                    if (content.style.display === "block") {
-                        content.style.display = "none";
-                    } else {
-                        content.style.display = "block";
-                    }
-                });
-            }
-        </script>
     </div>
 
     <!-- footer -->
@@ -129,6 +112,8 @@
         &copy; 2021
     </div>
 
+    <!-- javascript -->
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
