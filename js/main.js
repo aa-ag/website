@@ -1,3 +1,5 @@
+// displaying info on info secionts after user clicks
+
 let collapsible = document.getElementsByClassName("collapsible");
 let i;
 

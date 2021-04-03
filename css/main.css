@@ -115,7 +115,8 @@ a:visited {
     width: 90%;
     margin: auto;
     font-size: 20px;
-    border-radius: 7px 7px 7px 7px;;
+    border-radius: 7px 7px 7px 7px;
+    background-color: rgba(220, 220, 220, 0.947);
     box-shadow: 2px 6px 22px 15px rgba(0,0,0,0.1);
     -webkit-box-shadow: 2px 6px 22px 15px rgba(0,0,0,0.1);
     -moz-box-shadow: 2px 6px 22px 15px rgba(0,0,0,0.1);
@@ -143,13 +144,14 @@ a:visited {
     margin: auto;
     display: none;
     overflow: hidden;
+    padding-bottom: 0.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     color: rgb(220, 219, 219);
 }
 
 /* content spans */
-#intro span, #skills span, #about span {
+#intro span, #about span, #skills span {
     padding: .4em .5em;
     margin: 2px 2px 2px 0;
     line-height: 2.2;
