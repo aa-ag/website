@@ -34,7 +34,7 @@ body {
     width: 100%;
     background: linear-gradient(90deg, #eb704b, #e63277, #1da2d3, #22e2b5);
     background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
+    animation: gradient 30s ease infinite;
     /* animation-iteration-count: 1; */
 }
 
@@ -148,21 +148,17 @@ a:visited {
 /* ****************** footer ****************** */
 /* contact section */
 #buttons {
-    float: center;
+    display: flex;
+    justify-content: space-evenly;
     margin-top: 1.1rem;
     margin-right: 0.5rem;
 }
 
-#buttons a {
-    padding-right: 10px;
-}
-
 /* copyright */
 .footer {
-    text-align: center;
     position: sticky;
     font-size: 15px;
-    width: 77%;
+    width: 80%;
     margin: auto;
     margin-top: 2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.235);
