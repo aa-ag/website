@@ -109,6 +109,18 @@ a:visited {
     color: rgb(53, 53, 53);
     border: 2px solid white;
 }
+
+#myBtn1 {
+    border-radius: 7px 7px 0 0;
+}
+
+#myBtn3 {
+    border-radius: 0 0 7px 7px;
+}
+
+.info:last-child {
+    border: 1px solid orange;
+}
   
 /* The Modal (background) */
 .modal {
@@ -127,42 +139,42 @@ a:visited {
   
 /* Modal Content */
 .modal-content {
-background-color: #fefefe;
-margin: auto;
-padding: 20px;
-border: 1px solid #888;
-width: 80%;
-border-radius: 7px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 7px;
 }
 
 /* The Close Button */
-.close {
-color: #aaaaaa;
-float: right;
-font-size: 28px;
-font-weight: bold;
+    .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-color: #000;
-text-decoration: none;
-cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* spans inside modal-content */
 .modal-content span {
-padding: .4em .5em;
-margin: 2px 2px 2px 0;
-line-height: 2.2;
-white-space: nowrap;
-text-decoration: none;
-text-align: center;
-color: rgb(53, 53, 53);
-border: 1px solid rgb(53, 53, 53);
-border-radius: 7px;
-font-size: 16px;
-background-color: rgb(255, 255, 255);
+    padding: .4em .5em;
+    margin: 2px 2px 2px 0;
+    line-height: 2.2;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 7px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
 }
 
 .modal-content .close {
