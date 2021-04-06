@@ -118,6 +118,12 @@ a:visited {
     border-radius: 0 0 7px 7px;
 }
 
+#myBtn1, #myBtn2, #myBtn3 {
+    text-decoration: underline;
+    text-decoration-color: rgb(227, 227, 227);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
   
 /* The Modal (background) */
 .modal {
