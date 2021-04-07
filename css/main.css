@@ -110,15 +110,15 @@ a:visited {
     border: 2px solid white;
 }
 
-#myBtn1 {
+#button1 {
     border-radius: 7px 7px 0 0;
 }
 
-#myBtn3 {
+#button3 {
     border-radius: 0 0 7px 7px;
 }
 
-#myBtn1, #myBtn2, #myBtn3 {
+#button1, #button2, #button3 {
     text-decoration: underline;
     text-decoration-color: rgb(227, 227, 227);
     text-decoration-thickness: 3px;

@@ -1,9 +1,9 @@
 //--------------- MODAL 1 ---------------
 // Get the modal
-let modal1 = document.getElementById("myModal1");
+let modal1 = document.getElementById("modal1");
 
 // Get the button that opens the modal
-let btn1 = document.getElementById("myBtn1");
+let btn1 = document.getElementById("button1");
 
 // Get the <span> element that closes the modal
 let span1 = document.getElementsByClassName("close1")[0];
@@ -26,26 +26,20 @@ window.onclick = function (event) {
 }
 
 //--------------- MODAL 2 ---------------
-// Get the modal
-let modal2 = document.getElementById("myModal2");
+let modal2 = document.getElementById("modal2");
 
-// Get the button that opens the modal
-let btn2 = document.getElementById("myBtn2");
+let btn2 = document.getElementById("button2");
 
-// Get the <span> element that closes the modal
 let span2 = document.getElementsByClassName("close2")[0];
 
-// When the user clicks the button, open the modal 
 btn2.onclick = function () {
     modal2.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
 span2.onclick = function () {
     modal2.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
     if (event.target == modal2) {
         modal2.style.display = "none";
@@ -54,16 +48,12 @@ window.onclick = function (event) {
 
 
 //--------------- MODAL 3 ---------------
-// Get the modal
-let modal3 = document.getElementById("myModal3");
+let modal3 = document.getElementById("modal3");
 
-// Get the button that opens the modal
-let btn3 = document.getElementById("myBtn3");
+let btn3 = document.getElementById("button3");
 
-// Get the <span> element that closes the modal
 let span3 = document.getElementsByClassName("close3")[0];
 
-// When the user clicks the button, open the modal 
 btn3.onclick = function () {
     modal3.style.display = "block";
 }
