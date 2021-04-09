@@ -152,7 +152,7 @@ a:visited {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 50%;
+    width: 70%;
     border-radius: 7px;
 }
 
@@ -223,7 +223,10 @@ a:visited {
 /* ****************** responsive info & footer ****************** */
 @media screen and (min-width: 480px) {
     .info {
-        width: 45%;
+        width: 55%;
+    }
+    .modal-content{
+        width: 65%;
     }
     .footer {
         width: 43%;
