@@ -223,12 +223,32 @@ a:visited {
 /* ****************** responsive info & footer ****************** */
 @media screen and (min-width: 480px) {
     .info {
-        width: 75%;
+        width: 50%;
     }
     .modal-content{
-        width: 65%;
+        width: 55%;
     }
     .footer {
         width: 43%;
     }
+}
+
+
+/* ****************** tooltip(s) styling ****************** */
+.tooltip_left .tooltiptext, .tooltip_right .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip_left:hover .tooltiptext, .tooltip_right:hover .tooltiptext{
+    visibility: visible;
+    padding: 20px;
+    margin-left: 10px;
 }
