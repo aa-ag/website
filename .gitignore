@@ -15,7 +15,7 @@ contributions.py
 package-lock.json
 
 # .DS Store
-.DS Store
+.DS_Store
 
 # VSS
 .vscode
