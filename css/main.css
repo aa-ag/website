@@ -260,7 +260,7 @@ a:visited {
   
 .tooltip_left .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    width: 200px;
     background-color: black;
     color: #fff;
     text-align: center;
