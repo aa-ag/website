@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 
+    <!-- recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -163,7 +166,7 @@
     </div>
 
     <!-- footer -->
-    <div id="footer" style='display:none'>
+    <div class="footer" style="display:none">
         <!-- email button -->
         <div class="email_button">
             <button class="email">
@@ -173,6 +176,15 @@
                     <i class="fas fa-envelope"></i>
                 </a>
             </button>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $(".footer").delay(3000).fadeIn(2000);
+                });
+            </script>
+            <!-- </button>
+            <button class="g-recaptcha" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>
+            </button> -->
         </div>
         <!-- <div class="copy">&copy; 2021</div> -->
     </div>

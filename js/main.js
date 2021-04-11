@@ -71,13 +71,7 @@ window.onclick = function (event) {
 }
 
 
-//--------------- SHOW FOOTER AFTER 3 SECONDS ---------------
-function PopUp(show) {
-    if (show == 'hide') document.getElementById('footer').style.display = "none";
-    else document.getElementById('footer').removeAttribute('style');
-}
-window.onload = function () {
-    setTimeout(function () {
-        PopUp('show');
-    }, 3000);
-}
+//--------------- RECAPTCHA ---------------
+// function onSubmit(token) {
+//     document.getElementById("demo-form").submit();
+// }
