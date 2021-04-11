@@ -72,6 +72,6 @@ window.onclick = function (event) {
 
 
 //--------------- RECAPTCHA ---------------
-// function onSubmit(token) {
-//     document.getElementById("demo-form").submit();
-// }
+$(document).ready(function () {
+    $(".footer").delay(3000).fadeIn(2000);
+});
