@@ -69,3 +69,15 @@ window.onclick = function (event) {
         modal3.style.display = "none";
     }
 }
+
+
+//--------------- SHOW FOOTER AFTER 3 SECONDS ---------------
+function PopUp(show) {
+    if (show == 'hide') document.getElementById('footer').style.display = "none";
+    else document.getElementById('footer').removeAttribute('style');
+}
+window.onload = function () {
+    setTimeout(function () {
+        PopUp('show');
+    }, 3000);
+}
