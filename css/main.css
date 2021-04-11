@@ -287,9 +287,10 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: -2;
 }
 .email {
-    padding: 25px 40px;
+    padding: 2rem 4rem;
     border-radius: 7px 7px 0 0;
     border: none;
     background-color: black;
