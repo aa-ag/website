@@ -71,7 +71,7 @@ window.onclick = function (event) {
 }
 
 
-//--------------- RECAPTCHA ---------------
+//--------------- EMAIL BUTTON ---------------
 $(document).ready(function () {
     $(".footer").delay(3000).fadeIn(2000);
 });
