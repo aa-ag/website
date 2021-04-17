@@ -224,6 +224,14 @@ a:visited {
     margin-right: 0.5rem;
 }
 
+.online_presence a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgb(128, 128, 128);
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 3px;
+}
+
 .tooltip_right .tooltiptext {
     visibility: hidden;
     width: 200px;
@@ -288,13 +296,11 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 0;
 }
 .email {
     padding: 1.5rem 3rem;
     border-radius: 7px 7px 0 0;
     border: none;
-    bottom: 0;
     background-color: rgba(0, 0, 0, 0.89);
 }
 

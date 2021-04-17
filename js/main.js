@@ -81,5 +81,5 @@ const email = document.querySelector('.footer');
 window.onload = function () {
     setTimeout(function () {
         email.style.display = "flex"
-    }, 2000)
+    }, 3000)
 }
