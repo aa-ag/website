@@ -291,11 +291,11 @@ a:visited {
     bottom: 0;
 }
 .email {
-    padding: 2rem 4rem;
+    padding: 1.5rem 3rem;
     border-radius: 7px 7px 0 0;
     border: none;
     bottom: 0;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.89);
 }
 
 .email_button {
