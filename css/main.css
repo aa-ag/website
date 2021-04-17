@@ -28,7 +28,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color: #06358A; */
     color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
@@ -227,6 +226,7 @@ a:visited {
 .online_presence a:hover {
     font-size: 20px;
     text-decoration: underline;
+    width: 2px;
     text-decoration-color: rgb(128, 128, 128);
     text-decoration-thickness: 0.5px;
     text-underline-offset: 5px;
@@ -297,8 +297,9 @@ a:visited {
     justify-content: center;
     align-items: center;
 }
+
 .email {
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 100rem;
     border-radius: 7px 7px 0 0;
     border: none;
     background-color: rgba(0, 0, 0, 0.89);
