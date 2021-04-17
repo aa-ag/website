@@ -231,8 +231,6 @@ a:visited {
     border-radius: 6px;
     padding: 5px 0;
     position: absolute;
-    /* https://speckyboy.com/free-css-tooltip-snippets/ */
-    transition: all 0.5s ease;
     z-index: 1;
     background-color: rgb(0, 0, 0);
     color: #fff;
