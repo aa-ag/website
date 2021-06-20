@@ -1,13 +1,10 @@
 /* ****************** global ****************** */
 
 /* fonts */
-@font-face {
-    font-family: Libre_Franklin;
-    src: url('/fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');
 
 * {
-    font-family: Libre_Franklin;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 /* background animation */
