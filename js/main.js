@@ -72,14 +72,7 @@ window.onclick = function (event) {
 
 
 //--------------- EMAIL BUTTON ---------------
-// $(document).ready(function () {
-//     $(".footer").delay(3000).fadeIn(2000);
-// });
+$(document).ready(function () {
+    $(".footer").delay(3000).fadeIn('slow');
+});
 
-// const email = document.querySelector('.footer');
-
-// window.onload = function () {
-//     setTimeout(function () {
-//         email.style.display = "flex"
-//     }, 3000)
-// }
