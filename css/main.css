@@ -245,6 +245,7 @@ a:visited {
 }
 
 .tooltip_right:hover .tooltiptext {
+    transition: 2s all;
     visibility: visible;
     padding: 20px;
     margin-left: 10px;
@@ -270,10 +271,11 @@ a:visited {
 }
   
 .tooltip_left:hover .tooltiptext {
+    transition: 2s all;
     visibility: visible;
     padding: 20px;
     margin-right: 10px;
-}
+} 
 
 
 /* ****************** responsive info & online presence ****************** */
