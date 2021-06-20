@@ -76,10 +76,10 @@ window.onclick = function (event) {
 //     $(".footer").delay(3000).fadeIn(2000);
 // });
 
-const email = document.querySelector('.footer');
+// const email = document.querySelector('.footer');
 
-window.onload = function () {
-    setTimeout(function () {
-        email.style.display = "flex"
-    }, 3000)
-}
+// window.onload = function () {
+//     setTimeout(function () {
+//         email.style.display = "flex"
+//     }, 3000)
+// }
