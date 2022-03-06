@@ -78,12 +78,12 @@ window.onclick = function (event) {
 
 
 //--------------- CUSTOM ELEMENTS ---------------
-class About extends HTMLElement {
-    connectedCallback() {
-      this.innerHTML = `<h1>Hello World...</h1>`;
-      this.style.color = "grey";
-    }
-  }
+// class About extends HTMLElement {
+//     connectedCallback() {
+//       this.innerHTML = `<h1>Hello World...</h1>`;
+//       this.style.color = "grey";
+//     }
+//   }
   
-customElements.define("about", About);
+// customElements.define("about", About);
   
