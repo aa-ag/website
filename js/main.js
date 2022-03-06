@@ -72,18 +72,18 @@ window.onclick = function (event) {
 
 
 //--------------- EMAIL BUTTON ---------------
-$(document).ready(function () {
-    $(".footer").delay(3000).fadeIn('slow');
-});
+// $(document).ready(function () {
+//     $(".footer").delay(3000).fadeIn('slow');
+// });
 
 
 //--------------- CUSTOM ELEMENTS ---------------
-class Salutation extends HTMLElement {
+class About extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `<h1>Hello World...</h1>`;
       this.style.color = "grey";
     }
   }
   
-customElements.define("salutation-element", Salutation);
+customElements.define("about", About);
   
