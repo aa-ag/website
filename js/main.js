@@ -69,21 +69,4 @@ window.onclick = function (event) {
         modal3.style.display = "none";
     }
 }
-
-
-//--------------- EMAIL BUTTON ---------------
-// $(document).ready(function () {
-//     $(".footer").delay(3000).fadeIn('slow');
-// });
-
-
-//--------------- CUSTOM ELEMENTS ---------------
-// class About extends HTMLElement {
-//     connectedCallback() {
-//       this.innerHTML = `<h1>Hello World...</h1>`;
-//       this.style.color = "grey";
-//     }
-//   }
-  
-// customElements.define("about", About);
   
