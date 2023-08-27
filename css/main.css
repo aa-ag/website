@@ -70,6 +70,18 @@ a:visited {
     -moz-box-shadow: -1px 2px 5px 0px rgba(44, 44, 44, 0.8);
 }
 
+#currentquote {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    height: 3rem;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #name {
     font-size: 23px;
     color: rgb(53, 53, 53);
